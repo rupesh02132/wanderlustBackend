@@ -107,3 +107,4 @@ listingSchema.index({ location: '2dsphere' });
 const Listing = mongoose.model('Listing', listingSchema);
 
 module.exports = Listing;
+
